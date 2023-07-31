@@ -105,7 +105,10 @@ ul {
   letter-spacing: 0.28px;
   text-decoration: none;
 }
-
+.header-contacts__phonenumber:hover,
+.header-contacts__phonenumber :focus {
+  color: var(--brand-color);
+}
 .header-contacts__phonenumber {
   color: #757575;
   font-size: 14px;
