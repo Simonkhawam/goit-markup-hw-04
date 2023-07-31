@@ -514,7 +514,7 @@ div {
 }
 
 .main-title-section {
-  background-color: #2196f3;
+  background: url("/images/Img-main-bg.jpg"), rgba(196, 196, 196, 1);
   width: 1600px;
   height: 600px;
   flex-shrink: 0;
@@ -704,4 +704,15 @@ div {
 .section-find {
   display: flex;
   justify-content: center;
+}
+
+.mail-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+}
+.mail-ico {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }

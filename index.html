@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <!--Styles tag-->
     <link rel="stylesheet" href="./css/styles-main.css" />
   </head>
@@ -33,14 +34,22 @@
         <!--Link to contacts-->
         <ul class="header-contacts">
           <li>
-            <a href="mailto:info@devstudio.com" class="header-contacts__website"
-              >info@devstudio.com</a
-            >
+            <div class="mail-ico">
+              <i class="mail-icon" data-feather="mail"></i>
+              <a
+                href="mailto:info@devstudio.com"
+                class="header-contacts__website"
+                >info@devstudio.com</a
+              >
+            </div>
           </li>
           <li>
-            <a href="tel:+12127724150" class="header-contacts__phonenumber"
-              >+1 212-772-4150</a
-            >
+            <div class="mail-ico">
+              <i class="mail-icon" data-feather="phone"></i>
+              <a href="tel:+12127724150" class="header-contacts__phonenumber"
+                >+1 212-772-4150</a
+              >
+            </div>
           </li>
         </ul>
       </header>
@@ -475,5 +484,8 @@
         </section>
       </footer>
     </section>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
