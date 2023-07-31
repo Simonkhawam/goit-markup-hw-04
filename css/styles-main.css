@@ -687,7 +687,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 22px;
+  border-radius: 50%;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -697,7 +697,7 @@ div {
 }
 .icons-list-footer .icon-footer:hover,
 .icons-list-footer .icon-footer:focus {
-  color: var(--brand-color);
+  background-color: var(--brand-color);
 }
 
 .section-social-media {
