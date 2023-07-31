@@ -517,8 +517,12 @@ div {
 }
 
 .main-title-section {
-  background: linear-gradient(rgba(25, 28, 38, 0.4)), rgba(25, 28, 38, 0.8),
+  background: linear-gradient(rgba(25, 28, 38, 0.4), rgba(25, 28, 38, 0.8)),
     url("../images/Img-main-bg.jpg");
+  display: flex;
+  background-repeat: no-repeat;
+  background-color: #2f303a;
+  background-position: center;
   width: 1600px;
   height: 600px;
   flex-shrink: 0;
