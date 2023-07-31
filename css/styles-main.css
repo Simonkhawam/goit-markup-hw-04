@@ -601,39 +601,30 @@ div {
   justify-content: center;
   align-items: center;
 }
-/*
-.section-customers {
-  width: 1400px;
-  height: 330px;
-  text-align: center;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 40px;
-  color: #212121;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
-  background-color: #757575;
-}*/
+
 .section-cutomers {
-  width: 1280px;
-  height: 332px;
   background-color: rgb(31, 140, 236);
   display: flex;
+  margin: 60px;
   justify-content: space-around;
-  align-items: end;
-  padding: 60px;
+  border: solid #757575;
 }
 
 .customer-icon {
   width: 106px;
   height: 60px;
-  flex-shrink: 0;
+  border: solid #757575;
 }
 .section-customers-icon {
+  background-color: #f36262;
+}
+.section-customers-title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  margin-bottom: 25px;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
