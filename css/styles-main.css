@@ -603,21 +603,26 @@ div {
 }
 
 .section-cutomers {
-  background-color: rgb(31, 140, 236);
+  /* background-color: rgb(31, 140, 236);*/
   display: flex;
   margin: 60px;
   justify-content: space-around;
-  border: solid #757575;
 }
+/* border: solid #757575;
+} */
 
 .customer-icon {
   width: 106px;
   height: 60px;
-  border: solid #757575;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 2px;
 }
+
+/*
 .section-customers-icon {
   background-color: #f36262;
-}
+}*/
+
 .section-customers-title {
   color: #212121;
   text-align: center;
