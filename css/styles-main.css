@@ -573,7 +573,7 @@ div {
   justify-content: center;
   align-items: center;
   border-radius: 22px;
-  color: black;
+  color: rgba(175, 177, 184, 1);
 }
 
 .icons-list .icon svg {
