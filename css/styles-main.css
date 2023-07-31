@@ -601,7 +601,7 @@ div {
   justify-content: center;
   align-items: center;
 }
-
+/*
 .section-customers {
   width: 1400px;
   height: 330px;
@@ -619,4 +619,21 @@ div {
   line-height: normal;
   letter-spacing: 1.08px;
   background-color: #757575;
+}*/
+.section-cutomers {
+  width: 1280px;
+  height: 332px;
+  background-color: rgb(31, 140, 236);
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  padding: 60px;
+}
+
+.customer-icon {
+  width: 106px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.section-customers-icon {
 }
