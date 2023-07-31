@@ -584,3 +584,20 @@ div {
 .icons-list .icon:focus {
   color: var(--brand-color);
 }
+.about-us-icons {
+  background-color: rgba(245, 244, 250, 1);
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.icon-about {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  display: flex;
+}
+.about-us-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
