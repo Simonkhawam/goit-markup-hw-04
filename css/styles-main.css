@@ -517,7 +517,8 @@ div {
 }
 
 .main-title-section {
-  background: url("../images/Img-main-bg.jpg"), rgba(196, 196, 196, 1);
+  background: linear-gradient(rgba(25, 28, 38, 0.4)), rgba(25, 28, 38, 0.8),
+    url("../images/Img-main-bg.jpg");
   width: 1600px;
   height: 600px;
   flex-shrink: 0;
