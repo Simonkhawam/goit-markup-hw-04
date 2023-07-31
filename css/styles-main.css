@@ -385,6 +385,8 @@ div {
   height: 251px;
   flex-shrink: 0;
   padding: 60px 60px 10px;
+  display: flex;
+  justify-content: flex-start;
 }
 .logo {
   padding-left: 35px;
@@ -656,39 +658,50 @@ div {
 
 /* social-icons */
 
-.social-icons {
-  width: 20px;
-  height: 20px;
-}
-.social-icons {
+.icons-list-footer {
   display: flex;
-  flex-direction: row;
+  margin-top: 30px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.icons-list-footer {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.icons-list-footer .icon-footer {
   width: 44px;
   height: 44px;
-  background-color: transparent;
+  background-color: #373841;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  color: rgba(175, 177, 184, 1);
+  border-radius: 22px;
+  color: rgba(255, 255, 255, 1);
 }
-.section-social-media-icons {
+
+.icons-list-footer .icon-footer svg {
+  width: 20px;
+  height: 20px;
+}
+.icons-list-footer .icon-footer:hover,
+.icons-list-footer .icon-footer:focus {
+  color: var(--brand-color);
+}
+
+.section-social-media {
+  display: flex;
+  margin: 15px;
+  padding-left: 75px;
+}
+.find-us {
+  color: white;
+  margin-top: -34px;
+}
+.section-find {
   display: flex;
   justify-content: center;
-  gap: 50px;
-  align-items: end;
 }
-
-.find-us {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
-/*   */
-
-/*    */
