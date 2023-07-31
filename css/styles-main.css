@@ -517,7 +517,7 @@ div {
 }
 
 .main-title-section {
-  background: url("/images/Img-main-bg.jpg"), rgba(196, 196, 196, 1);
+  background: url("../images/Img-main-bg.jpg"), rgba(196, 196, 196, 1);
   width: 1600px;
   height: 600px;
   flex-shrink: 0;
