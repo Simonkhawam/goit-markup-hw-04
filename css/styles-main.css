@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 1;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
 * {
   margin: 0;
@@ -642,3 +653,42 @@ div {
   line-height: normal;
   letter-spacing: 1.08px;
 }
+
+/* social-icons */
+
+.social-icons {
+  width: 20px;
+  height: 20px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: rgba(175, 177, 184, 1);
+}
+.section-social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: end;
+}
+
+.find-us {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+/*   */
+
+/*    */
