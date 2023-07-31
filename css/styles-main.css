@@ -387,9 +387,10 @@ div {
   width: 1600px;
   height: 251px;
   flex-shrink: 0;
+
   padding: 60px 60px 10px;
   display: flex;
-  justify-content: flex-start;
+  margin: 0px;
 }
 .logo {
   padding-left: 35px;
@@ -612,7 +613,7 @@ div {
 }
 .icons-list .icon:hover,
 .icons-list .icon:focus {
-  color: var(--brand-color);
+  background-color: var(--brand-color);
 }
 .about-us-icons {
   background-color: rgba(245, 244, 250, 1);
@@ -671,6 +672,7 @@ div {
   margin-top: 30px;
   gap: 10px;
   justify-content: center;
+  flex-direction: row;
 }
 
 .icons-list-footer {
@@ -707,7 +709,10 @@ div {
 }
 .find-us {
   color: white;
-  margin-top: -34px;
+  margin-top: -45px;
+  text-align: center;
+  margin-right: -80px;
+  font-size: 16px;
 }
 .section-find {
   display: flex;
@@ -723,4 +728,9 @@ div {
   display: flex;
   flex-direction: row;
   gap: 5px;
+}
+
+.section-customers-icon .customer-icon:hover,
+.section-customers-icon .customer-icon:focus {
+  color: var(--brand-color);
 }
