@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap");
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  height: 1;
-}
 
-html,
-body {
-  width: 100%;
-  height: 100%;
+.container {
+  width: 1600px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 :root {
@@ -46,8 +44,6 @@ body {
   min-width: 320px;
   overflow-x: hidden;
   overflow-y: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   height: 100%;
