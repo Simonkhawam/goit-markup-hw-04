@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap");
 
 .container {
-  width: 1600px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 * {
@@ -11,7 +12,7 @@
 }
 html,
 body {
-  width: 100%;
+  width: 100px;
   height: 100%;
 }
 
@@ -47,6 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 1200px;
   background-color: var(--background-color);
   color: var(--title-color);
 }
@@ -146,7 +148,9 @@ ul {
   gap: 10px;
   -webkit-box-align: center;
   align-items: center;
-  flex-wrap: wrap;
+}
+.About-us-section {
+  gap: 30px;
 }
 
 .About-us-section__title {
@@ -154,6 +158,15 @@ ul {
   font-size: 14px;
   line-height: 1.18;
   letter-spacing: 3%;
+  margin-top: 30px;
+}
+.About-us-section {
+}
+.About-us-section-container {
+  margin-left: 10px;
+}
+.about-us-section-four-icons {
+  margin-left: 30px;
 }
 
 .About-us-section__description {
@@ -172,11 +185,16 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 1200px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 /*.three-images,*/
 .our-team-section {
-  padding: 30px;
-  margin-left: 45px;
+  padding: 0px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .three-images {
@@ -191,11 +209,13 @@ ul {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   background-color: #fff;
+  margin-left: 70px;
+  gap: 30px;
 }
 
 .background-team {
   background-color: rgba(245, 244, 250, 1);
-  width: 1600px;
+  width: 1270px;
   height: 648px;
   flex-shrink: 0;
 }
@@ -388,9 +408,8 @@ div {
 
 .footer {
   background: #2f303a;
-  width: 1600px;
+  width: 1270px;
   height: 251px;
-  flex-shrink: 0;
 
   padding: 60px 60px 10px;
   display: flex;
@@ -448,7 +467,7 @@ div {
 
 .footer {
   background-color: #2f303a;
-  width: 1600px;
+  width: 1200px;
   height: 251px;
 }
 .section-footer {
@@ -527,8 +546,7 @@ div {
   display: flex;
   background-repeat: no-repeat;
   background-color: #2f303a;
-  background-position: center;
-  width: 1600px;
+  width: 1280px;
   height: 600px;
   flex-shrink: 0;
   text-align: center;
@@ -624,7 +642,9 @@ div {
   width: 270px;
   height: 120px;
   flex-shrink: 0;
+  margin-top: 94px;
 }
+
 .icon-about {
   width: 70px;
   height: 70px;
@@ -635,6 +655,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: -7px;
 }
 
 .section-cutomers {
@@ -757,6 +778,7 @@ div {
   font-weight: 700;
 }
 .card {
+  background-color: #f5f4fa;
 }
 
 .our-team-departmant-title {
