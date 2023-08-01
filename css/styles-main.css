@@ -144,6 +144,9 @@ ul {
   list-style: none;
   display: flex;
   gap: 10px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .About-us-section__title {
@@ -232,6 +235,11 @@ ul {
   line-height: 1.18;
   letter-spacing: 3%;
   text-align: center;
+}
+.our-team-departmant {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .image-description {
@@ -729,4 +737,28 @@ div {
 .section-customers-icon .customer-icon:hover,
 .section-customers-icon .customer-icon:focus {
   color: var(--brand-color);
+}
+
+/* Cards section*/
+
+.card-list-item {
+  margin: 15px 15px;
+  text-align: center;
+  line-height: 1.18em;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.card-list__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.card {
+}
+
+.our-team-departmant-title {
+  padding: 30px 32px 24px 32px;
 }
