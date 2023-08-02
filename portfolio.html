@@ -10,84 +10,97 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="css/styles-main.css" />
     <!--top header-->
-    <header class="header-logo">
-      <!--Top line logo-->
-      <a href="index.html" class="logo"
-        ><span class="logo-color">Web</span>Studio</a
-      >
-      <!--Navigation bar-->
-      <nav>
-        <ul class="nav-bar">
+    <div class="header-container">
+      <header class="header-logo">
+        <!--Top line logo-->
+        <a href="index.html" class="logo"
+          ><span class="logo-color">Web</span>Studio</a
+        >
+        <!--Navigation bar-->
+        <nav>
+          <ul class="nav-bar">
+            <li>
+              <a href="index.html" class="first-word-navbar">Studio</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="second-word-navbar">Portfolio</a>
+            </li>
+            <li>
+              <a href="index.html" class="third-word-navbar">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!--Link to contacts-->
+        <ul class="header-contacts">
           <li>
-            <a href="index.html" class="first-word-navbar">Studio</a>
+            <div class="mail-ico">
+              <i class="mail-icon" data-feather="mail"></i>
+              <a
+                href="mailto:info@devstudio.com"
+                class="header-contacts__website"
+                >info@devstudio.com</a
+              >
+            </div>
           </li>
           <li>
-            <a href="portfolio.html" class="second-word-navbar">Portfolio</a>
-          </li>
-          <li>
-            <a href="index.html" class="third-word-navbar">Contacts</a>
+            <div class="mail-ico">
+              <i class="mail-icon" data-feather="phone"></i>
+              <a href="tel:+12127724150" class="header-contacts__phonenumber"
+                >+1 212-772-4150</a
+              >
+            </div>
           </li>
         </ul>
-      </nav>
-      <!--Link to contacts-->
-      <ul class="header-contacts">
-        <li>
-          <div class="mail-ico">
-            <i class="mail-icon" data-feather="mail"></i>
-            <a href="mailto:info@devstudio.com" class="header-contacts__website"
-              >info@devstudio.com</a
-            >
-          </div>
-        </li>
-        <li>
-          <div class="mail-ico">
-            <i class="mail-icon" data-feather="phone"></i>
-            <a href="tel:+12127724150" class="header-contacts__phonenumber"
-              >+1 212-772-4150</a
-            >
-          </div>
-        </li>
-      </ul>
-    </header>
+      </header>
+    </div>
+
     <hr />
+
     <!--button section-->
     <main>
       <div>
         <ul class="button-bar">
-          <li class="button-bar-focus"></li>
-          <li>
-            <button
-              class="button button-one__all"
-              type="button"
-              cursor="pointer"
-            >
-              <span class="button-text">All</span>
-            </button>
-          </li>
-          <li>
-            <button class="button button-two" type="button" cursor="pointer">
-              Web-sites
-            </button>
-          </li>
-          <li>
-            <button class="button button-three" type="button" cursor="pointer">
-              Apps
-            </button>
-          </li>
-          <li>
-            <button class="button button-four" type="button" cursor="pointer">
-              Design
-            </button>
-          </li>
-          <li>
-            <button class="button button-five" type="button" cursor="pointer">
-              Marketing
-            </button>
-          </li>
+          <div class="button-bar-focus">
+            <li>
+              <button
+                class="button button-one__all"
+                type="button"
+                cursor="pointer"
+              >
+                <span class="button-text">All</span>
+              </button>
+            </li>
+            <li>
+              <button class="button button-two" type="button" cursor="pointer">
+                Web-sites
+              </button>
+            </li>
+            <li>
+              <button
+                class="button button-three"
+                type="button"
+                cursor="pointer"
+              >
+                Apps
+              </button>
+            </li>
+            <li>
+              <button class="button button-four" type="button" cursor="pointer">
+                Design
+              </button>
+            </li>
+            <li>
+              <button class="button button-five" type="button" cursor="pointer">
+                Marketing
+              </button>
+            </li>
+          </div>
         </ul>
+      </div>
 
-        <!--main content with the nice cards-->
-        <section>
+      <!--main content with the nice cards-->
+      <div class="frame-cards">
+        <section class="frame-card-list">
           <div class="nine-pictures">
             <ul class="nine-cards">
               <li>

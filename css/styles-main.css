@@ -71,6 +71,7 @@ ul {
   list-style: none;
   display: flex;
   gap: 10px;
+  margin-right: 93px;
 }
 
 .first-word-navbar:hover,
@@ -94,7 +95,7 @@ ul {
 }
 
 .header-contacts__website {
-  color: #2196f3;
+  color: #757575;
   font-size: 14px;
   font-family: Roboto;
   font-style: normal;
@@ -103,8 +104,13 @@ ul {
   letter-spacing: 0.28px;
   text-decoration: none;
 }
-.header-contacts__phonenumber:hover,
-.header-contacts__phonenumber :focus {
+.mail-ico:hover,
+.mail-ico:focus {
+  color: var(--brand-color);
+}
+
+.header-contacts__website:hover,
+.header-contacts__website:focus {
   color: var(--brand-color);
 }
 .header-contacts__phonenumber {
@@ -116,6 +122,16 @@ ul {
   line-height: normal;
   letter-spacing: 0.28px;
   text-decoration: none;
+}
+.header-contacts__phonenumber:hover,
+.header-contacts__phonenumber:focus {
+  color: var(--brand-color);
+}
+.header-contacts {
+  margin-right: 60px;
+}
+.header-mail-phone {
+  margin-right: 20px;
 }
 
 .second-word-navbar {
@@ -131,6 +147,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 215px;
 }
 
 .header-logo,
@@ -160,8 +177,7 @@ ul {
   letter-spacing: 3%;
   margin-top: 30px;
 }
-.About-us-section {
-}
+
 .About-us-section-container {
   margin-left: 10px;
 }
@@ -292,12 +308,16 @@ ul {
   display: flex;
   gap: 10px;
   justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--brand-color);
   color: var(--background-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button {
@@ -322,8 +342,6 @@ ul {
 }
 
 .button-one__all {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   width: 64px;
   height: 38px;
   flex-shrink: 0;
@@ -365,15 +383,23 @@ div {
 .nine-pictures {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  box-shadow: 0px 0px 0px 1px #eee inset;
+
   margin-bottom: 30px;
 }
-
+.nine-cards:hover,
+.nine-cards:focus {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
 .nine-cards {
-  border: 1px solid #eee;
   display: flex;
   text-align: left;
+  margin-block: inherit;
+  margin-inline: auto;
+  line-height: 1.18em;
+  background-color: #fff;
+  border: 0.5 solid var(--link-color);
+  border-radius: 4px;
 }
 
 .nine-cards li {
@@ -382,7 +408,13 @@ div {
   align-items: center;
   text-align: left;
 }
-
+.frame-cards {
+  padding: 70px;
+  display: initial;
+  margin-left: auto;
+}
+.frame-card-list {
+}
 .image-description {
   font-weight: 700;
   font-size: 18px;
@@ -391,6 +423,7 @@ div {
   justify-content: space-between;
   align-items: center;
   text-align: left;
+  margin-top: 20px;
 }
 
 .paragraph-layout {
@@ -401,6 +434,7 @@ div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
   text-align: left;
 }
 
@@ -728,7 +762,7 @@ div {
   color: white;
   margin-top: -45px;
   text-align: center;
-  margin-right: -80px;
+  margin-right: -110px;
   font-size: 16px;
 }
 .section-find {
@@ -775,4 +809,18 @@ div {
 
 .our-team-departmant-title {
   padding: 30px 32px 24px 32px;
+}
+
+.header-container {
+}
+
+hr {
+  border: 1px solid;
+  color: rgba(236, 236, 236, 1);
+}
+/* Portofolio*/
+
+.header-container {
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
